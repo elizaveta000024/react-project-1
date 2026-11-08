@@ -1,11 +1,15 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import TodoForm from "./TodoForm";
-import TodoItem from "./TodoItem";
 import TodoList from "./TodoList";
 import "./Form.css";
 import "./App.css";
 const App = () => {
-  const [userList, setUserList] = useState([]);
+  const [userList, setUserList] = useState(
+    JSON.parse(localStorage.getItem("userList")) || [],
+  );
+  useEffect(() => {
+    localStorage.setItem("userList", JSON.stringify(userList));
+  }, [userList]);
   return (
     <div className="body">
       <div className="container">
