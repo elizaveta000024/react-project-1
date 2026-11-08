@@ -18,8 +18,14 @@
 .inpt {
   width: 400px;
   height: 38px;
-  color: #c3c1e5;
+  color: black;
   font-size: 16px;
+  font-family: "Kanit", sans-serif;
+  border-radius: 14px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+  border: none;
+  outline: none;
+  padding-left: 8px;
 }
 .add-btn {
   background-color: #6c63ff;
@@ -37,12 +43,15 @@
   margin-top: 30px;
 }
 .list-tasks {
-  width: 76%;
+  width: 100%;
 }
 .user-tasks {
   display: flex;
   justify-content: space-between;
   font-size: 20px;
+  border-bottom: 1px solid grey;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
 }
 .black-theme-btn {
   height: 38px;
@@ -55,4 +64,10 @@
 .list-check {
   width: 28px;
   height: 28px;
+}
+.todo-data-time {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 20px;
 }
