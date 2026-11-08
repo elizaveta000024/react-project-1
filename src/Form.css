@@ -1,0 +1,50 @@
+.form-btn {
+  margin-top: 18px;
+  display: flex;
+  width: 100%;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+.inpt {
+  width: 400px;
+  height: 38px;
+  color: #c3c1e5;
+  font-size: 16px;
+}
+.add-btn {
+  background-color: #6c63ff;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 18px;
+  color: white;
+  width: 85px;
+  height: 38px;
+  cursor: pointer;
+}
+.body-list {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.list-tasks {
+  width: 70%;
+}
+.user-tasks {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+}
+.black-theme-btn {
+  height: 38px;
+  width: 38px;
+  text-align: center;
+  background-color: #6c63ff;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.list-check {
+  width: 28px;
+  height: 28px;
+}
